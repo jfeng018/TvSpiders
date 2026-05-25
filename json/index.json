@@ -1,0 +1,363 @@
+{
+  "spider": "https://raw.githubusercontent.com/jfeng018/TvSpiders/main/jar/custom_spider.jar",
+  "lives": [
+    {
+      "name": "电视直播",
+      "type": "0",
+      "pass": true,
+      "url": "https://ghfast.top/raw.githubusercontent.com/Supprise0901/TVBox_live/main/live.txt",
+      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "网络直播",
+      "type": "0",
+      "pass": true,
+      "url": "https://tv.iill.top/m3u/Live",
+      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "直播",
+      "type": "0",
+      "pass": true,
+      "url": "https://ghfast.top/https://raw.githubusercontent.com/Wirili/IPTV/main/live.txt",
+      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "第三方源|不保存可用",
+      "type": "0",
+      "pass": true,
+      "url": "http://home.jundie.top:81/Cat/tv/live.txt",
+      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    }
+  ],
+  "sites": [
+    {
+      "key": "Introduce",
+      "name": "Cookie设置",
+      "type": 3,
+      "api": "csp_Introduce"
+    },
+    {
+      "key": "Douban",
+      "name": " 豆瓣仅推荐",
+      "type": 3,
+      "api": "csp_Douban",
+      "searchable": 0,
+      "filterable": 1
+    },
+    {
+      "key": "Wogg",
+      "name": "阿里┃玩偶哥哥",
+      "type": 3,
+      "api": "csp_Wogg",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "http://www.wogg.link/"
+    },
+    {
+      "key": "Mogg",
+      "name": "欧歌┃网盘",
+      "type": 3,
+      "api": "csp_Mogg",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "XiaoMi",
+      "name": "小米┃UC网盘",
+      "type": 3,
+      "api": "csp_XiaoMi",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "ZhiZhen",
+      "name": "至臻┃网盘",
+      "type": 3,
+      "api": "csp_ZhiZhen",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "NaBi",
+      "name": "蜡笔┃网盘",
+      "type": 3,
+      "api": "csp_NaBi",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "ShanDian",
+      "name": "闪电┃网盘",
+      "type": 3,
+      "api": "csp_ShanDian",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "TeXiaFan",
+      "name": "特下饭┃网盘",
+      "type": 3,
+      "api": "csp_TeXiaFan",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "Miss",
+      "name": "Miss┃韩美剧",
+      "type": 3,
+      "api": "csp_Miss",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "Jianpian",
+      "name": "荐片┃视频",
+      "type": 3,
+      "api": "csp_Jianpian",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "NCat",
+      "name": "网飞猫┃影视",
+      "type": 3,
+      "api": "csp_NCat",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "ChangZhang",
+      "name": "厂长┃影视",
+      "type": 3,
+      "api": "csp_ChangZhang",
+      "searchable": 1,
+      "filterable": 1,
+      "ext": "https://www.czzy.site/"
+    },
+    {
+      "key": "Zxzj",
+      "name": "在线之家",
+      "type": 3,
+      "api": "csp_Zxzj",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 0,
+      "ext": "https://www.zxzj.pro/"
+    },
+    {
+      "key": "Libvio",
+      "name": "立播┃影视",
+      "type": 3,
+      "api": "csp_Libvio",
+      "searchable": 1,
+      "filterable": 0,
+      "ext": "https://www.libvio.app/"
+    },
+    {
+      "key": "Ddrk",
+      "name": "低端┃影视",
+      "type": 3,
+      "api": "csp_Ddrk",
+      "searchable": 1,
+      "filterable": 0,
+      "ext": "https://ddys.pro/"
+    },
+    {
+      "key": "DuoDuo",
+      "name": "多多┃视频",
+      "type": 3,
+      "api": "csp_DuoDuo",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "{\"site\": [\"http://xsayang.fun:12512/\",\"https://tv.yydsys.top/\"]}"
+    },
+    {
+      "key": "SeedHub",
+      "name": "SeedHub",
+      "type": 3,
+      "api": "csp_SeedHub",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "PanTa",
+      "name": "盘他┃139Pan",
+      "type": 3,
+      "api": "csp_PanTa",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "LeiJing",
+      "name": "雷鲸┃189Pan",
+      "type": 3,
+      "api": "csp_LeiJing",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "BiXin",
+      "name": "彼心┃139Pan",
+      "type": 3,
+      "api": "csp_BiXin",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "Qupans",
+      "name": "Qupans┃Pan",
+      "type": 3,
+      "api": "csp_Qupans",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "TgSearchQuark",
+      "name": "☁搜索┃夸克",
+      "type": 3,
+      "api": "csp_TgSearchQuark",
+      "searchable": 1,
+      "filterable": 0,
+      "ext": {
+        "api_urls": [
+            "https://so.252035.xyz/api/search","https://s.panhunt.com/api/search","https://www.pansd.icu/api/search"
+        ],
+        "sources": [
+          "夸克"
+        ]
+      }
+    },
+    {
+      "key": "TgSearchBaidu",
+      "name": "☁搜索┃百度",
+      "type": 3,
+      "api": "csp_TgSearchBaidu",
+      "searchable": 1,
+      "filterable": 0,
+      "ext": {
+        "api_urls": [
+            "https://so.252035.xyz/api/search","https://s.panhunt.com/api/search","https://www.pansd.icu/api/search"
+        ],
+        "sources": [
+           "百度"
+        ]
+      }
+    },
+    {
+      "key": "TgSearch123",
+      "name": "☁搜索┃123盘",
+      "type": 3,
+      "api": "csp_TgSearch123",
+      "searchable": 1,
+      "filterable": 0,
+      "ext": {
+        "api_urls": [
+            "https://so.252035.xyz/api/search","https://s.panhunt.com/api/search","https://www.pansd.icu/api/search"
+        ],
+        "sources": [
+          "123盘"
+        ]
+      }
+    },
+    {
+      "key": "TgSearch189",
+      "name": "☁搜索┃天翼",
+      "type": 3,
+      "api": "csp_TgSearch189",
+      "searchable": 1,
+      "filterable": 0,
+      "ext": {
+        "api_urls": [
+            "https://so.252035.xyz/api/search","https://s.panhunt.com/api/search","https://www.pansd.icu/api/search"
+        ],
+        "sources": [
+         "天翼"
+        ]
+      }
+    },
+    {
+      "key": "TgSearch139",
+      "name": "☁搜索┃移动",
+      "type": 3,
+      "api": "csp_TgSearch139",
+      "searchable": 1,
+      "filterable": 0,
+      "ext": {
+        "api_urls": [
+            "https://so.252035.xyz/api/search","https://s.panhunt.com/api/search","https://www.pansd.icu/api/search"
+        ],
+        "sources": [
+          "移动"
+        ]
+      }
+    },
+    {
+      "key": "TgSearchMagnet",
+      "name": "☁搜索┃磁力",
+      "type": 3,
+      "api": "csp_TgSearchMagnet",
+      "searchable": 1,
+      "filterable": 0,
+      "ext": {
+        "api_urls": [
+          "https://so.252035.xyz/api/search","https://s.panhunt.com/api/search","https://www.pansd.icu/api/search"
+        ],
+        "sources": [
+          "磁力"
+        ]
+      }
+    },
+    {
+      "key": "PanSearch",
+      "name": "盘搜┃搜索",
+      "type": 3,
+      "api": "csp_PanSearch",
+      "searchable": 1,
+      "timeout": 30
+    },
+    {
+      "key": "QiLeSo",
+      "name": "奇乐搜┃搜索",
+      "type": 3,
+      "api": "csp_QiLeSo",
+      "searchable": 1,
+      "timeout": 30
+    },
+    {
+      "key": "local",
+      "name": "本地┃存储",
+      "type": 3,
+      "api": "csp_Local",
+      "searchable": 0
+    },
+    {
+      "key": "market",
+      "name": "Market",
+      "type": 3,
+      "api": "csp_Market",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": "./market.json"
+    },
+    {
+      "key": "push_agent",
+      "name": "推送┃Agent",
+      "type": 3,
+      "api": "csp_Push",
+      "searchable": 0,
+      "timeout": 60
+    }
+  ],
+  "parses": [
+    { "name": "解析聚合", "type": 3, "url": "Demo" },
+    { "name": "Json并发", "type": 2, "url": "Parallel" },
+    { "name": "Json轮询", "type": 2, "url": "Sequence" }
+  ],
+  "flags": [ "youku", "qq", "iqiyi", "qiyi", "letv", "sohu", "tudou", "pptv", "mgtv", "wasu", "bilibili", "renrenmi" ],
+  "wallpaper": "https://bing.ee123.net/img/4k"
+}
