@@ -1,5 +1,5 @@
 {
-  "spider": "../jar/custom_spider.jar;md5;bf1b3ea2f237302f87445c0695dd389e",
+  "spider": "../jar/custom_spider.jar;md5;5bf38e99a5f9e3319f5385e81addf625",
   "lives": [
     {
       "name": "直播ipv6",
